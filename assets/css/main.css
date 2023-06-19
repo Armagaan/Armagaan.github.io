@@ -1159,7 +1159,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			/* background-image: url("../../images/bg.jpg"); */
-			background-image: url("../../images/k2.jpg");
+			background-image: url("../../images/k2.jpg"); /* Set background here.*/
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1545,7 +1545,7 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 40rem;
+			width: 50rem; /* * Change this to set card width */
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
