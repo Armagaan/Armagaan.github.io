@@ -67,8 +67,8 @@ section {
 }
 
 .profile-photo {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
@@ -132,7 +132,7 @@ section a:hover {
 /* 🔹 Clickable Images (Used for Posters & College Logos) */
 .clickable-image {
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     height: auto;
     display: block;
     margin: 10px auto;
@@ -142,6 +142,23 @@ section a:hover {
 }
 
 .clickable-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔹 Clickable Images (Used for Posters & College Logos) */
+.poster-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.poster-image:hover {
     transform: scale(1.05);
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
