@@ -70,7 +70,7 @@ section {
     padding: 60px 20px;
     background: rgba(255, 255, 255, 0.75);
     margin: 80px auto;
-    max-width: 800px;
+    max-width: 900px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
     border-radius: 12px;
 }
@@ -128,7 +128,7 @@ section a:hover {
     text-align: left;
     max-width: 800px;
     margin: 80px auto;
-    padding: 40px;
+    padding: 70px;
     background: rgba(255, 255, 255, 0.75);
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
     border-radius: 12px;
@@ -141,7 +141,7 @@ section a:hover {
 /* 🔹 Clickable Images (Used for Posters & College Logos) */
 .clickable-image {
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     height: auto;
     display: block;
     margin: 10px auto;
