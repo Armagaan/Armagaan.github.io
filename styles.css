@@ -16,7 +16,7 @@ body {
     position: relative; */
 
     /* Background Image */
-    background: url('images/hu-ni-sin-281.jpg') center center / cover no-repeat fixed;
+    background: url('images/keychronk6.jpg') center center / cover no-repeat fixed;
     position: absolute;
     top: 0;
     left: 0;
@@ -34,7 +34,7 @@ body::before {
     width: 100%;
     height: 100%;
     background: rgba(255, 255, 255, 0.0);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(0px);
     z-index: -1;
 }
 
@@ -63,12 +63,12 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.5em;
 }
 
 section {
     padding: 60px 20px;
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.9); /* Transparency for all blocks except Publications */
     margin: 80px auto;
     max-width: 900px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
@@ -86,7 +86,7 @@ section {
 
 footer {
     margin-top: 20px;
-    background: rgba(34, 34, 34, 0.85);
+    background: rgba(34, 34, 34, 0.9);
     color: white;
     padding: 15px;
     font-size: 0.9em;
@@ -100,7 +100,7 @@ footer {
 .social-links a {
     display: inline-block;
     margin: 0 10px;
-    font-size: 24px;
+    font-size: 34px;
     color: #333;
     text-decoration: none;
     transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
@@ -125,11 +125,11 @@ section a:hover {
 
 /* 🔹 Publications */
 #publications {
-    text-align: left;
+    text-align: center;
     max-width: 800px;
     margin: 80px auto;
     padding: 70px;
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(255, 255, 255, 0.9);
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
     border-radius: 12px;
 }
@@ -138,7 +138,7 @@ section a:hover {
     text-align: center;
 }
 
-/* 🔹 Clickable Images (Used for Posters & College Logos) */
+/* 🔹 Clickable Images (Used for College pics) */
 .clickable-image {
     width: 100%;
     max-width: 500px;
@@ -146,7 +146,7 @@ section a:hover {
     display: block;
     margin: 10px auto;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -155,7 +155,7 @@ section a:hover {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* 🔹 Clickable Images (Used for Posters & College Logos) */
+/* 🔹 Clickable Images (Used for Posters) */
 .poster-image {
     width: 100%;
     max-width: 800px;
@@ -163,11 +163,15 @@ section a:hover {
     display: block;
     margin: 10px auto;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .poster-image:hover {
     transform: scale(1.05);
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 1.1rem;
 }
